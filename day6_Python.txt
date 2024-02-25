@@ -1,0 +1,74 @@
+---> PEP 8:
+	It is Python enhanced proposal.
+	It says how a software developer has to create variables, how to give indentation (giving spaces) in python,how to declare functions,inorder to contribute in python community how your code must be.
+	This is PEP 8.
+	We have to write the code in PEP 8 format.
+	PEP 8 is like a documentation which is available to the developers.
+	It is set of rules / instructions that the code has to be written in.
+
+
+------
+Operators:
+
+--> print (2+2)
+	o/p : 4
+
+--> print (3-2)
+	o/p : 1
+
+--> print (3*2)
+	o/p : 6
+
+--> print (3/2)
+	o/p : 1.5
+
+-->print (3//2)
+	o/p : 1   ;If we want the value in integers we have to give //
+
+--> print(3%2)
+	o/p : 1
+
+-->print (3>2)
+	o/p : True
+
+-->print(3<2)
+	o/p : False
+
+-->print(3==2)
+	o/p: False
+
+--> Walrus Operator: It allows to declare in print statement.
+    Ex: print(a:=10)
+	o/p : 10
+
+
+--------
+Q) Why we will use 'for' loop?
+A) A 'for' loop is used to repeat a specific block of code a knowm number of times.
+
+
+
+--> nums = [1,2,3,4]
+    for i in range(len (nums)):
+        print(nums[i])
+
+
+Here, 'i' is the index.
+We have used 'for' as we want to read every element and print.
+'Range' is used to specify till what number the 'for' loop has to iterate.
+
+
+
+--->Ex:
+	nums = ["world","hello"]
+	for i in range(0,1):
+	    print(nums[i])
+
+	o/p : world
+
+
+Here,in range(0,1) ,
+'0' is the Inclusve index.
+'1' is the Exclusive index.
+So it won't print nums[1]
+
